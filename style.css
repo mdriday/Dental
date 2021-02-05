@@ -67,9 +67,14 @@ img{
 }
 .top-menu-right ul li a:hover{}
 
-.main-menu{
-
-    box-sizing: border-box;
+.main-menu {
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	right: 0;
+	background: #fff;
+	width: 100%;
+	z-index: 999;
 }
 .main-menu-logo{
     width: 15%;
