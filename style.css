@@ -1,0 +1,833 @@
+/* defalt css */
+html{
+	scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.max{
+    width: 1080px;
+    margin: auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+img{
+    max-width: 100%
+}
+/* menu css */
+
+.header-top-menu {
+	background-color: #f4f4f4;
+	padding: 5px 0;
+}
+.top-menu-left{
+    width: 60%;
+    float: left;
+}
+.top-menu-left span {
+	color: #00aeef;
+	font-size: 20px;
+	margin-right: 12px;
+}
+.top-menu-left p {
+	display: inline-block;
+	font-size: 18px;
+	padding-right: 45px;
+	color: #576574;
+}
+.top-menu-right{
+    width: 40%;
+    float: right;
+}
+.top-menu-right ul{
+    text-align: right;
+}
+.top-menu-right ul li{
+     display: inline-block;
+}
+.top-menu-right ul li a {
+	display: inline-block;
+	color: #576574;
+	font-size: 15px;
+	padding: 5px 5px;
+}
+}
+.top-menu-right ul li a:hover{}
+
+.main-menu{
+
+    box-sizing: border-box;
+}
+.main-menu-logo{
+    width: 15%;
+    float: left;
+}
+img {
+	max-width: 100%;
+	padding: 16px 0;
+	display: inline-block;
+}
+.main-menu-menu{
+    width: 70%;
+    float: left;
+
+}
+.main-menu-menu ul{ 
+    text-align: center;
+}
+.main-menu-menu ul li{
+    display: inline-block;
+}
+.main-menu-menu ul li a {
+	display: inline-block;
+	font-size: 22px;
+	color: #222f3e;
+	text-decoration: none;
+	padding: 0 15px;
+    line-height: 80px;
+    transition: .6s;
+}
+.main-menu-menu ul li a:hover{
+    color: #00aeef;
+}
+.main-menu-menu ul li a span {
+	font-size: 20px;
+	margin-left: 3px;
+	box-sizing: border-box;
+}
+.main-menu-menu ul li a span:hover{
+    color: #222f3e;
+}
+/* dropdwon */
+.main-menu-menu ul li{
+    position: relative;
+}
+.main-menu-menu ul li ul{ 
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    background-color: #fff;
+    text-align: left;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+
+}
+.main-menu-menu ul li ul li{ 
+    display: block;
+}
+.main-menu-menu ul li ul li a{ 
+    display: block;
+	border-bottom: 1px solid #dddddd;
+	padding: -15px 0;
+	
+}
+.main-menu-menu ul li:hover >ul{
+    opacity: 1;
+    visibility: visible;
+ }
+ .main-menu-menu ul li ul li ul{
+     left: 100%;
+     top: 0;
+     visibility: hidden;
+     opacity: 0;
+
+ }
+
+.main-menu-btn{
+    width: 15%;
+    float: left;
+}
+.main-menu-btn a {
+	text-decoration: none;
+	background: #00aeef;
+	display: inline-block;
+	padding: 15px 20px;
+	color: #fff;
+	border-radius: 5px;
+    margin-top: 16px;
+    border: 2px solid #00aeef;
+    transition: .6s;
+    font-weight: 600;
+}
+.main-menu-btn a:hover{
+    background-color: transparent;
+    color: #00aeef;
+  
+}
+/* Slider Section */
+.benar-section {
+	background-image: url(https://aesthetik.com.au/wp-content/uploads/2019/03/dental-grilss-banner-img.jpg);
+	height: 600px;
+	box-sizing: border-box;
+	padding: 200px 0;
+	background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.benar-section h1 {
+	color: #fff;
+	width: 800px;
+	margin: auto;
+	font-size: 35px;
+}
+.benar-section p {
+	color: #fff;
+	max-width: 800px;
+	margin: auto;
+	font-size: 20px;
+	line-height: 35px;
+	padding: 25px 0;
+}
+.benar-section .a1 {
+	text-decoration: none;
+	color: #fff;
+	background: #00aeef;
+	padding: 15px 35px;
+	display: inline-block;
+	font-size: 20px;
+	border-radius: 10px;
+    margin-right: 20px;
+    border: 2px solid #00aeef;
+    transition: .6s;
+    font-weight: 600;
+}
+.benar-section .a1:hover{
+    background-color: transparent;
+    color: #00aeef;
+    border: 2px solid #00aeef;
+}
+.benar-section .a2 {
+	text-decoration: none;
+	color: #00aeef;
+	border: 2px solid #00aeef;
+	padding: 15px 35px;
+	display: inline-block;
+	font-size: 20px;
+	border-radius: 10px;
+	margin-right: 20px;
+    font-weight: 700;
+    transition: .6s;
+}
+.benar-section .a2:hover{
+    background-color: #00aeef;
+    color:#fff ;
+    border: 2px solid #fff;
+}
+
+/* About Us */
+.about-section {
+	padding: 50px 0;
+}
+.border-b{
+    border-bottom: 1px solid #dddddd;
+}
+.about-left{
+    width: 40%;
+    float: left;
+}
+.about-left img{}
+.about-right{
+    width: 55%;
+    float: right;
+}
+.about-right h1 {
+	padding-top: 100px;
+	padding-bottom: 65px;
+    color: #222f3e;
+    position: relative;
+}
+.about-right h1::before {
+	content: "";
+	position: absolute;
+	top: 155px;
+	left: 2px;
+	width: 60px;
+	height: 4px;
+	background-color: #00aeef;
+}
+.about-right p {
+	color: #576574;
+	font-size: 18px;
+	line-height: 30px;
+	padding-bottom: 40px;
+}
+.about-right li {
+	list-style: none;
+	line-height: 50px;
+	font-size: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.pgr{
+	width: 100%;
+	height: 10px;
+	background-color: #ece5e5;
+
+}
+.progress{
+	width: 90%;
+	height: 10px;
+	background-color: #00aeef;
+
+}
+.progress2{
+	width: 80%;
+	height: 10px;
+	background-color: #00aeef;
+
+}
+.progress3{
+	width: 70%;
+	height: 10px;
+	background-color: #00aeef;
+
+}
+/* about-list-section */
+.about-list-section{
+    padding: 50px 0;
+}
+.about-list{
+    float: left;
+    width: 25%;
+}
+.about-list h2 {
+	font-size: 35px;
+	color: #222f3e;
+	padding: 10px 0;
+}
+.about-list h5 {
+	font-size: 20px;
+	color: #576574;
+	font-weight: 200;
+}
+.about-list span {
+	color: #00aeef;
+	font-size: 40px;
+	padding: 8px 0;
+	display: inline-block;
+}
+
+/* Service Section */
+.service-section{
+    background-image: url(https://www.craftsmandentalcare.com/img/main-slider/slide05.jpg);
+    height: 600px;
+    box-sizing: border-box;
+    padding: 100px;
+}
+
+.service-left{
+    width: 60%;
+    float: left;
+}
+.service-left h1 {
+	color: #fff;
+	padding: 40px 0;
+    font-size: 40px;
+    position: relative;
+}
+.service-left h1::before {
+	content: "";
+	position: absolute;
+	top: 100px;
+	left: 2px;
+	width: 60px;
+	height: 4px;
+	background-color: #00aeef;
+}
+
+.service-list {
+	width: 33.3%;
+	float: left;
+	padding: 20px 0;
+	box-sizing: border-box;
+	color: #fff;
+}
+.service-list span {
+	font-size: 30px;
+	padding: 12px 0;
+	display: inline-block;
+}
+.service-list p {
+	font-size: 18px;
+	margin-left: -9px;
+	color: #c8d6e5;
+}
+.service-right{
+    width: 40%;
+    float: right;
+}
+.service-right img {
+	height: 370px;
+    margin-top: -32px;
+   
+}
+/* Pricing section */
+.Pricing-section{
+	padding: 100px 0;
+}
+.Pricing-section h1 {
+	text-align: center;
+	padding: 0 0 60px 0;
+	font-size: 40px;
+	color: #222f3e;
+	position: relative;
+}
+.Pricing-section h1::after {
+	content: "";
+	position: absolute;
+	bottom: 45px;
+	left: 500px;
+	background-color: #00aeef;
+	width: 70px;
+	height: 4px;
+}
+.table-section{}
+.table-section .tr1 {
+	background: #00aeef;
+	line-height: 46px;
+	color: #fff;
+	font-size: 25px;
+	text-align: left;
+
+}
+.table-section .tr1 .th1{
+	padding: 0 35px;
+	width: 70%;
+}
+.table-section .tr1 .th2{
+	padding: 0 35px;
+	width: 15%;
+}
+.table-section .tr1 .th3{
+	padding: 0 35px;
+	width: 15%;
+}
+.table-section .tr2 {
+	color: #576574;
+	background: #f4f4f4;
+	line-height: 45px;
+	font-size: 18px;
+
+}
+.table-section .tr2 .td1{
+	
+	padding: 0 35px;
+}
+.table-section .tr2 .td2{
+	padding: 0 35px;
+}
+.table-section .tr2 .td3 {
+
+	padding: 0 35px;
+}
+.t-btn {
+	text-align: center;
+	padding: 60px 0 0 0;
+}
+.t-btn a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 29px;
+	background: #00aeef;
+	color: #fff;
+	font-size: 20px;
+	border: 2px solid #00aeef;
+	transition: .6s;
+	border-radius: 5px;
+}
+.t-btn a:hover{
+color: #00aeef;
+background-color: #fff;
+border-radius: 5px;
+}
+.t-btn span{}
+
+/* booking Section */
+.booking-section {
+	background-image: url(https://thedentalsurgery.co.uk/wp-content/uploads/2017/05/Header-Banner-Teeth-Whitening.jpg);
+	padding: 100px;
+	height: 750px;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.booking-section h1 {
+	text-align: center;
+	color: #fff;
+	padding-bottom: 90px;
+}
+.frm{
+	width: 100%;
+}
+.w50 {
+	width: 45%;
+	display: inline-block;
+	padding: 10px 15px;
+	box-sizing: border-box;
+	background: rgba(43, 50, 66, .6);
+	border-color: rgba(43, 50, 66, .3);
+	margin-top: 22px;
+	color: #eee;
+	margin-right: 41px;
+}
+select{
+
+}
+select:hover{
+	background-color: #fff;
+
+	color: black;
+}
+.w100{
+	width: 95%;
+	display: inline-block;
+	padding: 10px 15px;
+	box-sizing: border-box;
+	background: rgba(43, 50, 66, .6);
+	border-color: rgba(43, 50, 66, .3);
+	margin-top: 22px;
+	color: #eee;
+	margin-right: 41px;
+	height: 150px;
+}
+.btn{
+	text-align: center;
+	padding: 40px 0;
+}
+.btn button {
+	background: #00aeef;
+	padding: 10px 30px;
+	display: inline-block;
+	border: 2px solid #00aeef;
+	color: #fff;
+	font-size: 20px;
+	transition: .6s;
+	cursor: pointer;
+}
+.btn button:hover{
+	color: #00aeef;
+	background-color: #fff;
+}
+/* Our Dentist Section */
+.Dentist-section{
+	padding: 80px 0;
+}
+.Dentist-section h2 {
+	text-align: center;
+	padding: 60px 0;
+	font-size: 35px;
+	color: #485460;
+	position: relative;
+}
+.Dentist-section h2::before {
+	content: "";
+	position: absolute;
+	bottom: 40px;
+	left: 500px;
+	width: 70px;
+	height: 5px;
+	background-color: #00aeef;
+}
+.Dentist1{
+	width: 30.3%;
+	float: left;
+	margin-left: 2%;
+	position: relative;
+	
+}
+.Dentist1:hover .d-icon ul{
+visibility: visible;
+opacity: 1;
+}
+.Dentist1 img{
+background-color: #f4f4f4;
+
+}
+.d-content {
+	background-color: rgba(36, 38, 73, .8);
+	position: absolute;
+	bottom: 6px;
+	left: 0;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 10px 0;
+}
+.d-content h1 {
+	font-size: 25px;
+	padding: 5px 0;
+
+}
+.d-content p {
+	color: #d2dae2;
+	font-size: 18px;
+}
+.d-icon{}
+.d-icon ul {
+	position: absolute;
+	top: 219px;
+	left: 130px;
+	visibility: hidden;
+	opacity: 0;
+	transition: .6s;
+}
+.d-icon ul li{
+	display: inline-block;
+}
+.d-icon ul li a {
+	display: inline-block;
+	color: #00aeef;
+	background: #fff;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	font-size: 20px;
+	text-align: center;
+	transition: .6s;
+}
+.d-icon ul li a:hover{
+	background-color: #00aeef;
+	color: #fff;
+}
+
+/* Testmonial Section */
+.test-section {
+	background-image: url(https://images.ctfassets.net/xkrknvgqff10/44kOqQJSzTOVVyYjPsowAH/e99074ad74ffd652e61122f891307afb/hero.jpeg);
+	padding: 100px;
+	background-size: cover;
+}
+.test-left{
+	width: 25%;
+	float: left;
+}
+.test-left img {
+	border-radius: 50%;
+	width: 400px;
+	height: 250px;
+	line-height: 400px;
+}
+
+.test-right {
+	width: 70%;
+	float: right;
+	padding: 50px 0;
+	color: #d2dae2
+}
+.test-right h2 {
+	padding: 7px 0;
+	color: #ff3f34;
+}
+.test-right p {
+	font-size: 20px;
+	line-height: 32px;
+	color: #eee;
+}
+
+/* News Section */
+.news-section {
+	padding: 80px 0;
+	background-color: #f7f7f7;
+}
+.news-section h1 {
+	text-align: center;
+	padding-bottom: 50px;
+	color: #303952;
+	position: relative;
+}
+.news-section h1::before {
+	content: "";
+	position: absolute;
+	bottom: 35px;
+	left: 500px;
+	width: 70px;
+	height: 5px;
+	background-color: #00aeef;
+}
+.news1{
+	width: 31%;
+	float: left;
+	margin-left: 2%;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+.news1 img{
+	cursor: pointer;
+}
+.news1 h2 {
+	color: #303952;
+	padding: 10px 20px;
+	font-size: 25px;
+	transition: .4s;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+.news1 h2:hover{
+	color: #00aeef;
+}
+.news1 p {
+	padding: 0px 20px 15px;
+	font-size: 18px;
+	line-height: 29px;
+	color: #596275;
+	font-weight: 100;
+	box-sizing: border-box;
+}
+.news1 span{
+	color: #00aeef;
+	padding: 0 10px;
+}
+.news1 h5{
+	display: inline-block;
+	transition: .4s;
+	cursor: pointer;
+}
+.news1 h5:hover{
+	color: #00aeef;
+
+}
+
+/* footer section */
+
+.main-footer {
+	background-image: url(https://hosted408.renlearn.com/228538/images/rp_entry_background.jpg);
+	padding: 80px 0;
+	background-size: cover;
+
+}
+.footer-list{
+	width: 23%;
+	float: left;
+	color: #fff;
+	margin-left: 1%;
+}
+.footer-list img{}
+.footer-list .p1 {
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 15px;
+}
+.footer-list .p2 {
+	display: inline-block;
+	font-size: 13px;
+	line-height: 30px;
+	margin-left: 7px;
+
+}
+.f-icon span {
+	display: inline-block;
+	color: #00aeef;
+	margin-bottom: 10px;
+
+}
+
+.f-list{}
+.f-list li {
+	display: flex;
+	justify-content: space-between;
+	line-height: 40px;
+	font-size: 19px;
+}
+.f-list h1 {
+	font-size: 30px;
+	padding-bottom: 30px;
+	padding-top: 15px;
+}
+.f-list span{}
+
+.f-link h1 {
+	font-size: 31px;
+	padding: 15px 0 30px 0;
+	text-align: center;
+}
+.f-link li {
+	display: flex;
+	justify-content: space-around;
+	line-height: 38px;
+}
+.f-link li a{
+	text-decoration: none;
+	color: #fff;
+}
+.f-news{
+	position: relative;
+}
+.f-news h1 {
+	padding: 15px 0 30px 0;
+	font-size: 30px;
+}
+.f-news p {
+	font-size: 18px;
+	line-height: 30px;
+	padding-bottom: 15px;
+}
+.f-news input {
+	height: 32px;
+	width: 100%;
+	padding: 5px;
+	font-size: 15px;
+	border: none;
+}
+
+
+.f-news button {
+	position: absolute;
+	top: 154px;
+	left: 202px;
+	height: 43px;
+	background: #00aeef;
+	width: 58px;
+	border: 1px solid #00aeef;
+	color: #fff;
+	font-size: 21px;
+	border-radius: 0 5px 5px 0;
+	line-height: 43px;
+	display: inline-block;
+	cursor: pointer;
+	transition: .4s;
+}
+.f-news button:hover {
+	background-color: black;
+	border: 1px solid #fff;
+
+}
+.f-news ul{
+	padding-top: 50px;
+}
+.f-news ul li{
+	display: inline-block;
+}
+.f-news ul li a{
+	display: inline-block;
+	color: #fff;
+	padding: 0 10px;
+	transition: .4s;
+}
+.f-news ul li a:hover{
+color: #00aeef;
+transform: scale(1.4);
+outline: none;
+}
+
+.footer-b{
+	padding-top: 100px;
+}
